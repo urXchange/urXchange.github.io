@@ -1,0 +1,206 @@
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+ }
+
+#myNavbar li a:hover{
+    color: blue;
+}
+
+.navbar {
+    background: white; 
+}
+
+ @media(min-width: 0px) {
+     .row .glyphicon {
+         font-size: 50px;
+     }
+     h1 {
+         font-size: 45px;
+         margin: 5%;
+     }
+     h2 {
+         font-size: 25px;
+     }
+     h5 {
+         font-size: 15px;
+     }
+     .row .glyphicon {
+         font-size: 60px;
+     }
+     .row p {
+         font-family: 'Forum', cursive;
+         color: black;
+         font-size: 17px;
+     }
+     p {
+        font-size: 17px;
+     }
+ }
+
+ /*  Small +  */
+ @media(min-width: 768px) {
+     h1 {
+         font-size: 60px;
+     }
+     h2 {
+         font-size: 30px;
+     }
+     h5 {
+         font-size: 20px;
+     }
+     .row .glyphicon {
+         font-size: 60px;
+     }
+     .row p {
+         font-size: 20px;
+         margin: 3%;
+     }
+      p {
+        font-size: 20px;
+     }
+ }
+
+ /* median + */
+ @media(min-width: 992px) {
+     h1 {
+         font-size: 70px;
+     }
+     h2 {
+         font-size: 35px;
+     }
+     h5 {
+         font-size: 25px;
+     }
+     .row .glyphicon {
+         font-size: 70px;
+
+     }
+     .row p {
+         font-size: 23px;
+         margin: 5%;
+     }
+      p {
+        font-size: 23px;
+     }
+
+     #myCarousel {
+         width: 80%;
+         margin: auto;
+     }
+
+     /* large + */
+ }
+
+ @media (min-width: 1200px) {
+     h1 {
+         font-size: 80px;
+     }
+     h2 {
+         font-size: 40px;
+     }
+     .row .glyphicon {
+         font-size: 90px;
+     }
+     .row p {
+         font-size: 26px;
+         margin: 5% 10%;
+     }
+      p {
+        font-size: 26px;
+     }
+ }
+
+ .container {
+     width: 100%;
+ }
+
+ .jumbotron p {
+     font-family: 'Neucha', cursive;
+ }
+
+ #home {
+     display: table;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient( rgba(0, 0, 0, 0.25),
+     rgba(0, 0, 0, 0.25)),
+     url(./img/book.jpg) no-repeat center center fixed;
+     background-size: cover;
+
+ }
+
+ #profile {
+     width: 100%;
+ }
+
+ .row .glyphicon {
+     color: #3a8cea;
+     margin-top: 3px;
+
+ }
+
+ .bg-gray {
+     background-color: #d9d9d9;
+ }
+
+
+ .row {
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 50px;
+     text-align: center;
+ }
+
+
+ #market {
+     background: linear-gradient( rgba(0, 0, 0, 0.50),
+     rgba(0, 0, 0, 0.20)),
+     url(./images/Arts-Oil-Painting-Wallpaper.jpg) no-repeat center center fixed;
+     background-size: cover;
+     padding-bottom: 5%
+ }
+
+
+ #bottomline {
+     background: linear-gradient( rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.75)),
+     url(./images/smartphone.jpg) no-repeat center center fixed;
+     background-size: cover;
+
+ }
+
+ .center-text {
+     text-align: center;
+     vertical-align: middle;
+     display: table-cell;
+
+ }
+
+ h1 {
+     font-family: 'Quintessential', cursive;
+     color: White;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+
+ h2 {
+     font-family: 'Overlock SC', cursive;
+     color: black;
+     text-align: center;
+ }
+
+ h5 {
+     color: white;
+     text-align: center;
+ }
+
+
+ .white {
+     color: white;
+ }
+
+ .black {
+     color: black;
+ }
