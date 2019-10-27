@@ -2,15 +2,15 @@ h1 {
     margin-top: 4%;
     font-size: 50px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: beige;
+    font-family: 'Quintessential', cursive;
+    background-color:rgb(218, 233, 238);
 }
 
 h2{
     font-size: 30px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: coral;
+    font-family: 'Quintessential', cursive;
+    color:rgb(15, 2, 27);
 }
 img{
     border-image-width: 1%;
@@ -20,6 +20,9 @@ img{
     
     text-align: center;
 
+}
+.box5{
+    margin-left:5%;
 }
 .box1{
     margin: 5%;
@@ -41,3 +44,4 @@ img{
     text-align: center;
 
 }
+
